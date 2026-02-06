@@ -33,9 +33,9 @@ export default function Hero() {
             animate="show"
             className="mt-6 text-slate-400 leading-relaxed"
           >
-            I am a passionate Fullstack Developer experienced in building web
+            {/* I am a passionate Fullstack Developer experienced in building web
             applications, REST APIs, and system architectures using modern
-            technologies such as React, Laravel, Node.js, and Go.
+            technologies such as React, Laravel, Node.js, and Go. */}
           </motion.p>
 
           <motion.div
