@@ -1,79 +1,36 @@
-/* ================= Hero.tsx ================= */
 import { motion } from "framer-motion";
-import { fadeUp } from "../lib/animations";
+import { fadeUp, scaleIn, staggerContainer } from "../lib/animations";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center px-6">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden 
+      bg-white dark:bg-slate-950 transition-colors duration-500">
+      
+      {/* Background Glows (Dynamic Opacity) */}
+      <div className="absolute top-1/4 -left-20 w-96 h-96 bg-sky-400/10 dark:bg-sky-500/20 rounded-full blur-[120px]" />
+      <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-purple-400/10 dark:bg-purple-500/10 rounded-full blur-[120px]" />
 
-        {/* Left Content */}
+      <motion.div variants={staggerContainer} initial="hidden" animate="show" className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center z-10">
         <div>
-          <motion.h1
-            variants={fadeUp}
-            initial="hidden"
-            animate="show"
-            className="text-5xl font-bold"
-          >
-            Fabian Hie
+          <motion.h1 variants={fadeUp} className="text-7xl font-extrabold tracking-tight text-slate-900 dark:text-white">
+            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-emerald-500 dark:from-sky-400 dark:to-emerald-400">Fabian</span>
           </motion.h1>
 
-          <motion.p
-            variants={fadeUp}
-            initial="hidden"
-            animate="show"
-            className="mt-4 text-sky-400 text-lg"
-          >
-            Fullstack Developer
+          <motion.p variants={fadeUp} className="text-2xl mt-4 font-medium text-slate-600 dark:text-slate-300">
+            Fullstack Developer & Systems Architect
           </motion.p>
 
-          <motion.p
-            variants={fadeUp}
-            initial="hidden"
-            animate="show"
-            className="mt-6 text-slate-400 leading-relaxed"
-          >
-            {/* I am a passionate Fullstack Developer experienced in building web
-            applications, REST APIs, and system architectures using modern
-            technologies such as React, Laravel, Node.js, and Go. */}
-          </motion.p>
-
-          <motion.div
-            variants={fadeUp}
-            initial="hidden"
-            animate="show"
-            className="mt-8 flex gap-4"
-          >
-            <a
-              href="#projects"
-              className="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-lg font-semibold"
-            >
-              View Projects
-            </a>
-
-            <a
-              href="#contact"
-              className="border border-slate-600 hover:border-sky-500 px-6 py-3 rounded-lg"
-            >
-              Contact Me
-            </a>
+          <motion.div variants={fadeUp} className="mt-10 flex gap-4">
+            <a href="#projects" className="px-8 py-3 bg-sky-600 text-white rounded-full font-semibold hover:bg-sky-500 transition-all shadow-lg shadow-sky-500/20">View My Work</a>
+            <a href="#contact" className="px-8 py-3 border border-slate-300 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full font-semibold transition-all">Let's Talk</a>
           </motion.div>
         </div>
 
-        {/* Right Image */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          className="flex justify-center"
-        >
-          <img
-            src="/profile.jpg"
-            alt="Profile"
-            className="w-64 h-64 rounded-full object-cover border-4 border-sky-500 shadow-lg"
-          />
+        <motion.div variants={scaleIn} className="relative flex justify-center">
+          <div className="absolute inset-0 border-2 border-sky-400/30 dark:border-sky-500/30 rounded-full animate-[ping_3s_linear_infinite]" />
+          <img src="/profile.jpg" className="w-72 h-72 rounded-full object-cover border-4 border-white dark:border-slate-900 shadow-2xl z-10" />
         </motion.div>
-
-      </div>
+      </motion.div>
     </section>
   );
 }

@@ -9,3 +9,23 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: offset for fixed navbars */
+section {
+  scroll-margin-top: 80px;
+}
+
+/* src/index.css */
+* {
+  @apply transition-colors duration-300;
+}
+
+/* Ensure background transitions are slower for a premium feel */
+body, section, div, nav {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-duration: 500ms;
+}
