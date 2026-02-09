@@ -64,7 +64,7 @@ export default function Contact() {
 
         {/* Footer Credit */}
         <p className="mt-24 text-xs text-slate-400 dark:text-slate-600 uppercase tracking-[0.2em]">
-          Designed & Built by Fabian &copy; 2024
+          Designed & Built by Fabian &copy; 2026
         </p>
       </div>
     </section>
