@@ -3,7 +3,7 @@ import { fadeUp, scaleIn, staggerContainer } from "../lib/animations";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden 
+    <section id="about" className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden 
       bg-white dark:bg-slate-950 transition-colors duration-500">
       
       {/* Background Glows (Dynamic Opacity) */}
