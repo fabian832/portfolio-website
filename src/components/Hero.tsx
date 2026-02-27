@@ -17,7 +17,7 @@ export default function Hero() {
           </motion.h1>
 
           <motion.p variants={fadeUp} className="text-2xl mt-4 font-medium text-slate-600 dark:text-slate-300">
-            Fullstack Developer & Systems Architect
+            Fullstack Developer
           </motion.p>
 
           <motion.div variants={fadeUp} className="mt-10 flex gap-4">
