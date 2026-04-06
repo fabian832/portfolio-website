@@ -21,7 +21,7 @@ export default function Hero() {
           </motion.p>
 
           <motion.div variants={fadeUp} className="mt-10 flex gap-4">
-            <a href="#projects" className="px-8 py-3 bg-sky-600 text-white rounded-full font-semibold hover:bg-sky-500 transition-all shadow-lg shadow-sky-500/20">View My Work</a>
+            <a href="#experience" className="px-8 py-3 bg-sky-600 text-white rounded-full font-semibold hover:bg-sky-500 transition-all shadow-lg shadow-sky-500/20">My Experiences</a>
             <a href="#contact" className="px-8 py-3 border border-slate-300 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-full font-semibold transition-all">Let's Talk</a>
           </motion.div>
         </div>
