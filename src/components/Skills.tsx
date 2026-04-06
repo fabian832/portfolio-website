@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <section id="skills" className="py-24 px-6 bg-white dark:bg-slate-950 transition-colors duration-500">
       <div className="max-w-6xl mx-auto"> {/* Increased max-width for better 3-column spacing */}
-        <h2 className="text-4xl font-bold text-center mb-16 text-slate-900 dark:text-white">Technical Arsenal</h2>
+        <h2 className="text-4xl font-bold text-center mb-16 text-slate-900 dark:text-white">Skills</h2>
         
         {/* CHANGE: Added lg:grid-cols-3 */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
