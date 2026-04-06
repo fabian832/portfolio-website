@@ -15,9 +15,10 @@ export const experiences = [
       "Developed an event staff attendance system for recording and monitoring check-in/out during events.",
       "Built a basic inbound warehouse management system for item receiving, rack placement, rack-to-rack mutation, and stock movement tracking.",
       "Maintained item master data with Bill of Materials (BOM) to support continuous POS sales, including tracking 100,000+ item transactioned efficiently.",
-      "Created an end-to-end store onboarding and scoring workflow covering Store Address, Property, Status, Legal, Financial, and a web-based examination system for performance scoring.",
+      "Created an end-to-end store onboarding and scoring workflow covering Store Address, Property, Status, Legal, and a web-based examination system for performance scoring.",
       "Customized PrestaShop (Scandia.id) to add Pre-Order, list of location, and Flashsale.",
       "Customized PrestaShop (Vinyard.com) to simplify pickup checkout flow into customer information and cart summary only.",
+      "Maintain and control few server in Ubuntu/Linux.",
     ],
   },
   {
