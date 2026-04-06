@@ -4,6 +4,16 @@ export const educations = [
     year: "2020 - 2024",
     desc: "Bachelor's degree, Computer Science",
   },
+  {
+    school: "Santa Patricia Highchool",
+    year: "2014 - 2020",
+    desc: "",
+  },
+  {
+    school: "San Marino Primary School",
+    year: "2008 - 2014",
+    desc: "",
+  },
 ];
 
 
@@ -36,33 +46,41 @@ export const experiences = [
     ],
   },
   {
-    company: "HIMTI BINUS University",
-    year: "2021 - 2022",
+    company: "Head of Creative Department TECHFEST 2022",
+    year: "2022 - 2023",
     tasks: [
-      "Committee of Bunga Rampai Division in TECHNO 2021",
-      "Head of Creative Department TECHFEST 2022",
+      'Led the Creative Department for HIMTI’s flagship 2022 event "TECHFEST 2022".',
+      "Selected and managed team members across Design, Decoration, and Media divisions.",
+      "Ensured quality control of all creative outputs produced by the team.",
+      "Provided clear briefings, task distribution, and project direction to team members.",
+      "Coordinated with other department heads to report progress and align deliverables.",
+      "Actively supported the team by contributing to design work to meet deadlines.",
     ],
   },
-
   {
     company: "Committee of Buram Division in TECHNO 2021 HIMTI BINUS University",
     year: "05/2021 - 09/2021",
-    tasks: ["Committee of Buram Division in TECHNO 2021"],
+    tasks: ["Committee of Buram Division in TECHNO 2021", "Help the team to strategize how to promote the event of TECHNO 2021"],
   },
   {
     company: 'Coordinator of Design Division in HIMTI WORKSHOP "Protect Our Website" HIMTI BINUS University',
     year: "05/2021 - 06/2021",
-    tasks: ['Coordinator of Design Division in HIMTI WORKSHOP "Protect Our Website"'],
+    tasks: ['Become the coordinator of design division for HIMTI WORKSHOP "Protect Our Website" HIMTI BINUS University.', "Control and planning all of the content needed to promote the events and distribute the workload to other two personel.", "Help my personel jobdesc as i also design based on the content planned."],
   },
   {
     company: "Coordinator of Design Division in Company Visit HIMTI x DKATALIS HIMTI BINUS University",
     year: "04/2021 - 05/2021",
-    tasks: ["Coordinator of Design Division in Company Visit HIMTI x DKATALIS"],
+    tasks: ["Become the coordinator of design division for Company Visit HIMTI x DKATALIS HIMTI BINUS University.", "Control and planning all of the content needed to promote the events and distribute the workload to other two personel.", "Help my personel jobdesc as i also design based on the content planned."],
   },
   {
     company: "Activist in Programming Class Division HIMTI BINUS University",
     year: "03/2021 - 01/2023",
-    tasks: ["Activist in Programming Class Division"],
+    tasks: ["Become the active staff to coordinate a seminar that already planned."],
+  },
+  {
+    company: "Student Council in Santa Patricia Senior Highschool",
+    year: "2018 - 2019",
+    tasks: ["Maintain and control the Web Design Extracurricular", "Step into a team consists of 2 persons to handle the design needed for whole year academic events or non-academic events."],
   },
 ];
 
