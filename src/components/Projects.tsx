@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeUp, staggerContainer, scaleIn } from "../lib/animations";
-import {projects} from "../data/projects";
+import {projects} from "../data/data";
 
 export default function Projects() {
   return (

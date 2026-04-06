@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeUp, staggerContainer } from "../lib/animations";
-import { licenses } from "../data/licenses"; // Import the new object array
+import { licenses } from "../data/data"; // Import the new object array
 
 export default function Licenses() {
   return (
